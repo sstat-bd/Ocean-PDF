@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ocean PDF Desktop Pro — Coming Soon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../sta.ico" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+  <style>
+    body { font-family: 'Segoe UI', Roboto, Arial, sans-serif; margin:0; background:#f4f6f9; color:#333; }
+    header { background:#004466; color:#fff; padding:8px 20px; display:flex; align-items:center; border-bottom:1px solid #e6e9ee; }
+    header img { height:45px; width:45px; margin-right:15px; }
+    header h1 { margin:0; font-size:1.6em; line-height:1.1; }
+    header p { margin:0; font-size:0.95em; line-height:1.1; }
+    nav { display:flex; justify-content:center; gap:20px; margin:20px 0; }
+    nav a { padding:12px 20px; background:#fff; border:1px solid #ddd; border-radius:6px; text-decoration:none; color:#004466; font-weight:600; }
+    nav a:hover { background:#004466; color:#fff; }
+    .content { max-width:900px; margin:40px auto; background:#fff; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1); padding:40px; }
+    h2 { color:#004466; border-bottom: 2px solid #f4f6f9; padding-bottom: 10px; }
+    
+    /* Image and Profile Styling */
+    .desktop-preview { margin: 20px 0; text-align: left; }
+    .desktop-preview img { width:100%; max-width:600px; border-radius:8px; margin-bottom:10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .desktop-preview figcaption { font-style: italic; color: #666; font-size: 0.9em; }
+
+    .feature-list { list-style: none; padding: 0; }
+    .feature-list li { margin-bottom: 15px; padding-left: 25px; position: relative; }
+    .feature-list li::before { content: '✓'; position: absolute; left: 0; color: #3498db; font-weight: bold; }
+    footer { text-align:center; padding:20px; background:#eee; margin-top:40px; }
+    .status-badge { display: inline-block; padding: 4px 12px; background: #e74c3c; color: #fff; border-radius: 20px; font-size: 0.8em; vertical-align: middle; margin-left: 10px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="../sta.ico" alt="Ocean PDF Pro Icon">
+  <div>
+    <h1>Ocean PDF Desktop Pro <span class="status-badge">Development Phase</span></h1>
+    <p>The powerful offline companion to our web toolkit</p>
+  </div>
+  <span style="margin-left:auto; color:#fff; font-size:0.9em; display:flex; align-items:center;">
+    <span style="height:10px; width:10px; background-color:orange; border-radius:50%; display:inline-block; margin-right:6px;"></span>
+    Lead Developer: M. Saiedullah, PhD
+  </span>
+</header>
+
+<nav>
+  <a href="../home.html">Back to Web App</a>
+  <a href="combine.html">Combine PDF</a>
+  <a href="saied-29a.html">Edit PDF</a>
+</nav>
+
+<div class="content">
+  <section id="desktop-overview">
+    <h2>Full Functional Desktop Version</h2>
+    
+    <figure class="desktop-preview">
+      <img src="oceandesk.png" alt="Ocean PDF Desktop Pro Interface Preview">
+      <figcaption>Preview of the upcoming Ocean PDF Desktop Pro interface.</figcaption>
+    </figure>
+
+    <p>
+      Building on the robust architecture of our web-based editor, the upcoming **Ocean PDF Desktop Pro** is designed for users requiring professional-grade document management without an internet connection. While our web version remains a lightweight, zero-retention tool, the Desktop edition will provide an enhanced environment for high-volume local processing.
+    </p>
+
+    <h3>Key Features Under Development:</h3>
+    <ul class="feature-list">
+      <li><strong>Native Performance:</strong> Faster rendering and export capabilities utilizing local hardware resources.</li>
+      <li><strong>Expanded Typography:</strong> Full access to your system's font library alongside our standard embedded fonts like Helvetica, Arial, and Times New Roman.</li>
+      <li><strong>Advanced Local Storage:</strong> Securely save and manage session history with full undo/redo persistence across multiple workdays.</li>
+      <li><strong>Offline Privacy:</strong> Operates entirely on your machine, ensuring your data never touches a server—consistent with our strict privacy philosophy.</li>
+      <li><strong>Batch Processing:</strong> Enhanced tools for merging, editing, and exporting multiple large-scale PDF files simultaneously.</li>
+    </ul>
+
+    <p style="background: #fdf2f2; padding: 15px; border-left: 5px solid #e74c3c; margin-top: 30px;">
+      <strong>Status Update:</strong> The desktop version is currently in active development. We are refining the offline integration layer and local font-embedding engines to ensure 100% document fidelity. Full functional desktop version will be available soon.
+    </p>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2026 Ocean PDF Pro — All rights reserved.</p>
+</footer>
+
+</body>
+</html>
